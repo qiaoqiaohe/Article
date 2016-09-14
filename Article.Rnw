@@ -267,7 +267,7 @@ Based on the CO$_2$ flux measuring height, there are 3 different types CO$_2$ fl
 
 Soil CO$_2$ flux measures a physical process driven primarily by the CO$_2$ concentration diffusion gradient between the upper soil layers and the atmosphere near the soil surface. Figure \ref{Fig:soilflux} shows a device measuring soil CO$_2$ flux. Figure \ref{Fig:canopy} is an example of how the below/above-canopy CO$_2$ flux gets measured.
 
-The eddy covariance method is one of the most direct and defensible ways to measure such fluxes. The ``covariance'' in eddy covariance method is different from the definition of covariance in statistics. For more information, please check the Appendix. Uniform terminology and single methodology are still being developed for the eddy covariance method.  Much of the effort is being done by network (e.g., FluxNet, ICOS, NEON, ect.)  to unify various approaches. FLUXNET, a ``network of regional networks'', coordinates regional and global analysis of observations from micro meteorological tower sites. One of the conventional ways to calculate vertical fluxes is
+The eddy covariance method is one of the most direct and defensible ways to measure such fluxes. The ``covariance'' in eddy covariance method is different from the definition of covariance in statistics. For more information, please see Appendix \ref{App:EddyCov}. Uniform terminology and single methodology are still being developed for the eddy covariance method.  Much of the effort is being done by network (e.g., FluxNet, ICOS, NEON, ect.)  to unify various approaches. FLUXNET, a ``network of regional networks'', coordinates regional and global analysis of observations from micro meteorological tower sites. One of the conventional ways to calculate vertical fluxes is
 
 \begin{equation}
 F = \overline{\rho_a\omega s},
@@ -309,7 +309,7 @@ One assumption of FDA is that the underlying process generating the data is smoo
 \citet{levitin2007introduction} mentioned ``FDA was designed to take advantage of replications''.
 ``The primary advantage of FDA is that it allows the researcher to ask questions about when in a time series diffferences may exist between two or more sets of observations." \citep{levitin2007introduction}
 
-A functional datum is not a single observation but a set of measurements of a continuum, usually time.
+A functional datum is not a single observation but a set of measurements over a continuum, usually time.
 A typical analysis of functional data begins with using smoothing techniques to represent each observation as a functional object. The original data are then set aside, and the smooth estimated curves are used for further analysis. 
 
 Application of FDA has appeared in a large number of publications across multiple fields, such as medicine, chemistry, managerial science, and ecology.
@@ -330,7 +330,7 @@ Medical research including shape analysis and gene information extraction.
 
 Figure \ref{Fig:fdasmooth} is an example of functional data smoothing. Heights of 20 girls were taken from ages 0 through 18 with unevenly spaced time points. The circles in Figure \ref{Fig:fdasmooth} represent the original data points. The smooth lines are the fitted curves for each girl.
 \citet{ramsay2006functional} also mentioned the first steps in a functional data analysis are smoothing and interpolation. 
-After functional data smoothing, we can get the height of a given girl at any age between 0 and 18. One of the advantages of functional data smoothing is that we can get continuous derivatives. The second derivatives of Figure \ref{Fig:fdasmooth} are shown in the left panel of Figure \ref{Fig:fdaregi}.
+After functional data smoothing, we can estimate the height of a given girl at any age between 0 and 18. One of the advantages of functional data smoothing is that we can get continuous derivatives. The second derivatives of Figure \ref{Fig:fdasmooth} are shown in the left panel of Figure \ref{Fig:fdaregi}.
 
 The individual differences of height acceleration curves makes the overall pattern not so obvious. It makes more sense that we compare ``the pubertal growth spurts of two children at their respective ages of peak velocity rather than at any fixed age'' \citep{ramsay2006functional}. The feature alignment technique is called functional data registration. Figure \ref{Fig:fdaregi} compares the original data with the data after registration.
 
@@ -341,7 +341,7 @@ The individual differences of height acceleration curves makes the overall patte
 \label{Fig:fdaregi}
 \end{figure}
 
-One way to conduct registration is landmark registration. Landmarks are key quantities for this method. 
+One way to conduct registration is landmark registration. 
 A landmark or a feature of a curve is some characteristic that one can associate with a specific argument value. Landmarks are typically maxima, minima, or zero crossings of curves.
 They may be identified with zeros at the level of some derivatives.
 
@@ -862,7 +862,7 @@ To describe a single curve we need $m+k+1$ coefficients, a multivariate normal d
 
 \subsubsection{Non-degenerate Case}
 
-When the covariance matrix is positive definite,  the distribution of multivariate normal (MVN) is given below:
+When the covariance matrix of $\widehat{\beta}^{*}$ is positive definite,  the distribution of multivariate normal (MVN) is given below:
 
 \begin{equation}
 f_X(x_1,\dots,x_{q}) = \frac{1}{\sqrt{(2\pi)^k|\Sigma|}}\exp\left(-\frac{1}{2}(x-\mu)'\Sigma^{-1}(x-\mu)\right),
@@ -904,8 +904,8 @@ Y = \mu + LX,
 \end{equation}  
 where $Var(YY')= Var(LXX'L') = Var(LL')$, since $XX'$ is identity matrix. 
 
-We apply R function mvrnorm(n$=$1,mu,Sigma) to conduct the simulation. We use sample mean and sample covariance to estimate mu ($\mu$) and Sigma ($\Sigma$).
-We simulate 10000 CO$_2$ flux data on registered time scale. Figure \ref{Fig:regiSimi} shows 5 simulations and 95\% point-wise interval.
+We apply R function mvrnorm(n$=$1,mu,Sigma) to conduct the simulation. We use the sample mean and the sample covariance to estimate $\mu$ and $\Sigma$.
+We simulate 10000 CO$_2$ flux data on the registered time scale. Figure \ref{Fig:regiSimi} shows 5 simulations and 95\% point-wise prediction intervals.
 
 
 \begin{figure}[!ht]
@@ -984,7 +984,7 @@ Compared to the properties that our $l_1,\dots,l_{L+1}$ have, if we rescale the 
 
 \subsubsection{Dirichlet Regression}
 
-We assume that the $i^{th}$ year length of adjesent landmarks $y_{i.}$ where $i=1,\dots,n$ follows a Dirichlet distribution with parameter $\alpha(x_{i.})$, where $\alpha(x_{i.})=(\alpha_1(x_{i.}),\dots,\alpha_k(x_{i.}))$, and each $\alpha_l(x_{i.})$ where $l=1,\dots,k$ is a linear combination of $x_{i.}$:
+We assume that the $i^{th}$ year length of adjacent landmarks $y_{i.}$ where $i=1,\dots,n$ follows a Dirichlet distribution with parameter $\alpha(x_{i.})$, where $\alpha(x_{i.})=(\alpha_1(x_{i.}),\dots,\alpha_k(x_{i.}))$, and each $\alpha_l(x_{i.})$ where $l=1,\dots,k$ is a linear combination of $x_{i.}$:
 
 \begin{equation}
 \alpha_l(x_{i.}) = x_{i,1}\psi_{1,l} + x_{i,2}\psi_{2,l} +\cdots + x_{i,p}\psi_{p,l} = x_{i.}\psi_{.l}.
@@ -1263,7 +1263,7 @@ $Z(S)$ & process at location $S$ which satisfies intrinsic stationary\\
 
 \newpage
 
-\section{Eddy covariance method to calculate vertical flux.}
+\section{Eddy covariance method to calculate vertical flux.}\label{App:EddyCov}
 
 In turbulent flow, $\bar{\rho}_a$ is the mean air density, $\bar{\rho}_a'$ is the deviation of $\rho_a$ from the mean air density $\bar{\rho}_a$, $\bar{\omega}$ represents the mean wind speed, $\omega'$ is the deviation in vertical wind speed $\omega$ from its mean value $\bar{\omega}$, and $\bar{s}$ is the mean value of the gas concentration, $s'$ is the deviation of gas concentration from its mean  $\bar{s}$.
 

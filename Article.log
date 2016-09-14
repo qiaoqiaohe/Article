@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 SEP 2016 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 SEP 2016 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,19 +560,19 @@ File: soilflux.png Graphic file (type png)
 Package pdftex.def Info: soilflux.png used on input line 292.
 (pdftex.def)             Requested size: 170.71652pt x 133.06676pt.
 
-<QCmodis1.png, id=259, 811.03pt x 262.9825pt>
+<QCmodis1.png, id=260, 811.03pt x 262.9825pt>
 File: QCmodis1.png Graphic file (type png)
  <use QCmodis1.png>
 Package pdftex.def Info: QCmodis1.png used on input line 311.
 (pdftex.def)             Requested size: 398.33858pt x 129.16751pt.
- [7 <./soilflux.png>] [8 <./QCmodis1.png>] <egsmooth.png, id=332, 512.91624pt x
+ [7 <./soilflux.png>] [8 <./QCmodis1.png>] <egsmooth.png, id=333, 512.91624pt x
  432.61626pt>
 File: egsmooth.png Graphic file (type png)
 
 <use egsmooth.png>
 Package pdftex.def Info: egsmooth.png used on input line 355.
 (pdftex.def)             Requested size: 227.62204pt x 191.98883pt.
- <egregistration.png, id=346, 675.52374pt x 378.41376pt>
+ <egregistration.png, id=347, 675.52374pt x 378.41376pt>
 File: egregistration.png Graphic file (type png)
 
 <use egregistration.png>
@@ -583,80 +583,80 @@ Overfull \hbox (10.61972pt too wide) in paragraph at lines 444--454
  [][] 
  []
 
-[10 <./egregistration.png>] <OAPmodis1.png, id=403, 807.015pt x 273.02pt>
+[10 <./egregistration.png>] <OAPmodis1.png, id=404, 807.015pt x 273.02pt>
 File: OAPmodis1.png Graphic file (type png)
 
 <use OAPmodis1.png>
 Package pdftex.def Info: OAPmodis1.png used on input line 464.
 (pdftex.def)             Requested size: 398.33858pt x 134.75996pt.
- <OJPmodis1.png, id=405, 808.01875pt x 269.005pt>
+ <OJPmodis1.png, id=406, 808.01875pt x 269.005pt>
 File: OJPmodis1.png Graphic file (type png)
 
 <use OJPmodis1.png>
 Package pdftex.def Info: OJPmodis1.png used on input line 477.
 (pdftex.def)             Requested size: 398.33858pt x 132.61401pt.
- <SOUmodis1.png, id=407, 818.05624pt x 265.99374pt>
+ <SOUmodis1.png, id=408, 818.05624pt x 265.99374pt>
 File: SOUmodis1.png Graphic file (type png)
 
 <use SOUmodis1.png>
 Package pdftex.def Info: SOUmodis1.png used on input line 489.
 (pdftex.def)             Requested size: 398.33858pt x 129.52226pt.
- <YJPmodis1.png, id=409, 813.0375pt x 268.00125pt>
+ <YJPmodis1.png, id=410, 813.0375pt x 268.00125pt>
 File: YJPmodis1.png Graphic file (type png)
 
 <use YJPmodis1.png>
 Package pdftex.def Info: YJPmodis1.png used on input line 501.
 (pdftex.def)             Requested size: 398.33858pt x 131.3013pt.
  [11 <./OAPmodis1.png>]
-<oapndvi.png, id=421, 751.80875pt x 239.89626pt>
+<oapndvi.png, id=422, 751.80875pt x 239.89626pt>
 File: oapndvi.png Graphic file (type png)
  <use oapndvi.png>
 Package pdftex.def Info: oapndvi.png used on input line 513.
 (pdftex.def)             Requested size: 398.33858pt x 127.10779pt.
 
-<ojpndvi.png, id=422, 768.8725pt x 263.98625pt>
+<ojpndvi.png, id=423, 768.8725pt x 263.98625pt>
 File: ojpndvi.png Graphic file (type png)
  <use ojpndvi.png>
 Package pdftex.def Info: ojpndvi.png used on input line 522.
 (pdftex.def)             Requested size: 398.33858pt x 136.77011pt.
 
-<soundvi.png, id=423, 780.9175pt x 265.99374pt>
+<soundvi.png, id=424, 780.9175pt x 265.99374pt>
 File: soundvi.png Graphic file (type png)
  <use soundvi.png>
 Package pdftex.def Info: soundvi.png used on input line 531.
 (pdftex.def)             Requested size: 398.33858pt x 135.67935pt.
 
-<yjpndvi.png, id=424, 759.83875pt x 258.9675pt>
+<yjpndvi.png, id=425, 759.83875pt x 258.9675pt>
 File: yjpndvi.png Graphic file (type png)
  <use yjpndvi.png>
 Package pdftex.def Info: yjpndvi.png used on input line 541.
 (pdftex.def)             Requested size: 398.33858pt x 135.76237pt.
  [12 <./OJPmodis1.png> <./SOUmodis1.png> <./YJPmodis1.png>] [13 <./oapndvi.png>
- <./ojpndvi.png> <./soundvi.png>] <res3.png, id=456, 848.16875pt x 370.38374pt>
+ <./ojpndvi.png> <./soundvi.png>] <res3.png, id=457, 848.16875pt x 370.38374pt>
 File: res3.png Graphic file (type png)
 
 <use res3.png>
 Package pdftex.def Info: res3.png used on input line 568.
 (pdftex.def)             Requested size: 398.33858pt x 173.9504pt.
- <resOAP.png, id=457, 848.16875pt x 237.88875pt>
+ <resOAP.png, id=458, 848.16875pt x 237.88875pt>
 File: resOAP.png Graphic file (type png)
 
 <use resOAP.png>
 Package pdftex.def Info: resOAP.png used on input line 576.
 (pdftex.def)             Requested size: 399.29463pt x 111.99284pt.
- <resOJP.png, id=458, 842.14626pt x 236.885pt>
+ <resOJP.png, id=459, 842.14626pt x 236.885pt>
 File: resOJP.png Graphic file (type png)
 
 <use resOJP.png>
 Package pdftex.def Info: resOJP.png used on input line 581.
 (pdftex.def)             Requested size: 399.29463pt x 112.3155pt.
- <resSOU.png, id=459, 836.12375pt x 223.83624pt>
+ <resSOU.png, id=460, 836.12375pt x 223.83624pt>
 File: resSOU.png Graphic file (type png)
 
 <use resSOU.png>
 Package pdftex.def Info: resSOU.png used on input line 586.
 (pdftex.def)             Requested size: 399.29463pt x 106.89711pt.
- <resYJP.png, id=460, 845.1575pt x 221.82875pt>
+ <resYJP.png, id=461, 845.1575pt x 221.82875pt>
 File: resYJP.png Graphic file (type png)
 
 <use resYJP.png>
@@ -668,49 +668,49 @@ Overfull \hbox (43.88464pt too wide) in paragraph at lines 654--659
  [][] 
  []
 
-<Original2.png, id=483, 652.4375pt x 455.7025pt>
+<Original2.png, id=484, 652.4375pt x 455.7025pt>
 File: Original2.png Graphic file (type png)
  <use Original2.png>
 Package pdftex.def Info: Original2.png used on input line 664.
 (pdftex.def)             Requested size: 272.45877pt x 190.30899pt.
- [16 <./Original2.png>] <WarppingOAP4.png, id=501, 608.2725pt x 538.01pt>
+ [16 <./Original2.png>] <WarppingOAP4.png, id=502, 608.2725pt x 538.01pt>
 File: WarppingOAP4.png Graphic file (type png)
 
 <use WarppingOAP4.png>
 Package pdftex.def Info: WarppingOAP4.png used on input line 693.
 (pdftex.def)             Requested size: 211.38832pt x 186.96819pt.
- <LandmarkDiff3.png, id=502, 608.2725pt x 538.01pt>
+ <LandmarkDiff3.png, id=503, 608.2725pt x 538.01pt>
 File: LandmarkDiff3.png Graphic file (type png)
 
 <use LandmarkDiff3.png>
 Package pdftex.def Info: LandmarkDiff3.png used on input line 698.
 (pdftex.def)             Requested size: 211.38832pt x 186.96819pt.
  [17 <./WarppingOAP4.png> <./LandmarkDiff3.png>]
-<Regi1.png, id=520, 653.44125pt x 453.695pt>
+<Regi1.png, id=521, 653.44125pt x 453.695pt>
 File: Regi1.png Graphic file (type png)
  <use Regi1.png>
 Package pdftex.def Info: Regi1.png used on input line 726.
 (pdftex.def)             Requested size: 281.85587pt x 195.69424pt.
- [18 <./Regi1.png>] <regiSimi1.png, id=536, 665.48625pt x 472.76625pt>
+ [18 <./Regi1.png>] <regiSimi1.png, id=537, 665.48625pt x 472.76625pt>
 File: regiSimi1.png Graphic file (type png)
  <use regiSimi1.png>
 Package pdftex.def Info: regiSimi1.png used on input line 795.
 (pdftex.def)             Requested size: 281.85587pt x 200.23407pt.
 
-[19 <./regiSimi1.png>] <BadS2.png, id=552, 677.53125pt x 410.53375pt>
+[19 <./regiSimi1.png>] <BadS2.png, id=553, 677.53125pt x 410.53375pt>
 File: BadS2.png Graphic file (type png)
 
 <use BadS2.png>
 Package pdftex.def Info: BadS2.png used on input line 824.
 (pdftex.def)             Requested size: 211.38832pt x 128.08476pt.
- <GoodS2.png, id=553, 664.4825pt x 403.5075pt>
+ <GoodS2.png, id=554, 664.4825pt x 403.5075pt>
 File: GoodS2.png Graphic file (type png)
  <use GoodS2.png>
 Package pdftex.def Info: GoodS2.png used on input line 830.
 (pdftex.def)             Requested size: 211.38832pt x 128.36772pt.
 
 [20 <./BadS2.png> <./GoodS2.png>]
-<RealSimu.png, id=575, 630.355pt x 466.74374pt>
+<RealSimu.png, id=576, 630.355pt x 466.74374pt>
 File: RealSimu.png Graphic file (type png)
  <use RealSimu.png>
 Package pdftex.def Info: RealSimu.png used on input line 914.
@@ -730,7 +730,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23] <AllSites.png, id=631, 1113.15875pt x 608.2725pt>
+[23] <AllSites.png, id=632, 1113.15875pt x 608.2725pt>
 File: AllSites.png Graphic file (type png)
  <use AllSites.png>
 Package pdftex.def Info: AllSites.png used on input line 1093.
@@ -773,7 +773,7 @@ Package xcolor Warning: Incompatible color definition on input line 1278.
 
 Package xcolor Warning: Incompatible color definition on input line 1318.
 
-<figure/unnamed-chunk-13-1.pdf, id=672, 505.89pt x 505.89pt>
+<figure/unnamed-chunk-13-1.pdf, id=673, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-13-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-13-1.pdf>
@@ -789,7 +789,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 1323--1324
 Package xcolor Warning: Incompatible color definition on input line 1328.
 
 [28 <./figure/unnamed-chunk-13-1.pdf>]
-<figure/unnamed-chunk-14-1.pdf, id=682, 505.89pt x 505.89pt>
+<figure/unnamed-chunk-14-1.pdf, id=683, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-14-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-14-1.pdf>
@@ -815,10 +815,10 @@ Package rerunfilecheck Info: File `Article.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1424.
  ) 
 Here is how much of TeX's memory you used:
- 9336 strings out of 493014
- 138457 string characters out of 6133351
- 247602 words of memory out of 5000000
- 12481 multiletter control sequences out of 15000+600000
+ 9337 strings out of 493014
+ 138470 string characters out of 6133351
+ 247678 words of memory out of 5000000
+ 12482 multiletter control sequences out of 15000+600000
  15073 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,20n,42p,1782b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -843,10 +843,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf
 dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Article.pdf (33 pages, 4675904 bytes).
+Output written on Article.pdf (33 pages, 4667458 bytes).
 PDF statistics:
- 854 PDF objects out of 1000 (max. 8388607)
- 712 compressed objects within 8 object streams
+ 855 PDF objects out of 1000 (max. 8388607)
+ 713 compressed objects within 8 object streams
  218 named destinations out of 1000 (max. 500000)
  436 words of extra memory for PDF output out of 10000 (max. 10000000)
 
