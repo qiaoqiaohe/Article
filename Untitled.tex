@@ -1,0 +1,91 @@
+\documentclass{article}
+
+\usepackage[top=0.7in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{pifont}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{leftidx}
+\usepackage{extarrows}
+\usepackage{graphicx}
+\usepackage{Sweave}
+\usepackage{enumitem}
+\usepackage{sidecap}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{epstopdf}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\usepackage{verbatim} 
+\usepackage{hyperref}
+
+\begin{document}
+\input{Untitled-concordance}
+\title{Temporal Analysis of Flux Tower Data}
+\author{Fang He}
+\maketitle
+
+Abstract.
+
+\newpage
+\section{Introduction}
+
+The concentration of CO2 is important to production.
+
+The ultimate goal of this analysis is trying to predict flux tower data based on the information we have already known, e.g.: previous years of flux tower data, MODIS data.
+
+
+\section{Data Editing}
+
+\subsection{Flux Tower Data}
+Data was collected from \url{http://daac.ornl.gov/MODIS/}. Four spots has been selected. 
+
+\begin{center}
+\begin{tabular}{cccccc}
+\textbf{Long} & \textbf{Lat} & \textbf{Site Name} & \textbf{Time Range} & \textbf{Data Link} & \textbf{Data}\\
+\hline
+-106.1978 & 53.6289 & SK Old Aspen & 2003 - 2008 &  & CO2Flux\_AbvCnpy\_39m\\
+-104.6920 & 53.9163 & SK Old Jack Pine & 2003 - 2008 & & CO2Flux\_AbvCnpy\_28m\\
+-105.1178 & 53.9872 & Sk Southern Old Black Spruce & 2003 - 2008 & & CO2Flux\_AbvCnpy\_25m\\
+-104.6453 & 53.8758 & Sk 1975 (Young) Jack Pine & 2004 - 2006 & & CO2Flux\_AbvCnpy\_16m\\
+\end{tabular}
+\end{center}
+
+\subsection{MODIS Data}
+
+MODIS data were collected every 16 days starting at the first day of each year.
+
+MODI data were downloaded from the following link: \url{http://daac.ornl.gov/MODIS/}
+
+\begin{itemize}
+\item The number of kilometers encompassing the center location, both above/below and left/right, are being set 0.
+\item The time ranges of MODIS data are consistent with corresponding flux tower data for each location.
+\end{itemize}
+
+\section{Method}
+
+\subsection{Generalized Linear Model}
+
+
+\subsection{Functional Data Analysis}
+
+
+\subsubsection{Registration}
+
+
+\subsubsection{Direchilet Regression}
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

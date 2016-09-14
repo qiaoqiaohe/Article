@@ -1,0 +1,30 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{MODIS Data}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Carbon Dioxide Flux Data}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Literature Review}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Ecology}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Statistics}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Data}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Location Selection}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Data View}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Methods}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Additive Model}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Spline Smoothing}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{Registration}{section.5}% 14
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Warping Function}{subsection.5.3}% 15
+\BOOKMARK [2][-]{subsection.5.4}{A Model of the Registered Curves: Multivariate Normal}{section.5}% 16
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Non-degenerate Case}{subsection.5.4}% 17
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Degenerate Case}{subsection.5.4}% 18
+\BOOKMARK [2][-]{subsection.5.5}{One Simulation Method}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.6}{A Model for the Inverse Warping Function: Dirichlet Regression}{section.5}% 20
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Dirichlet Distribution}{subsection.5.6}% 21
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Dirichlet Regression}{subsection.5.6}% 22
+\BOOKMARK [2][-]{subsection.5.7}{Kriging}{section.5}% 23
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 24
+\BOOKMARK [1][-]{section.7}{Future Work}{}% 25
+\BOOKMARK [1][-]{Appendix.1.A}{Appendix Selected Notations}{}% 26
+\BOOKMARK [1][-]{Appendix.1.B}{Appendix Eddy covariance method to calculate vertical flux.}{}% 27
+\BOOKMARK [1][-]{Appendix.1.C}{Appendix R code of GAM model \(equation 2\)}{}% 28
+\BOOKMARK [1][-]{Appendix.1.D}{Appendix The detail of equation 30}{}% 29
+\BOOKMARK [1][-]{Appendix.1.E}{Appendix Difference between second order stationary and intrinsic stationary}{}% 30
